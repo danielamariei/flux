@@ -25,6 +25,13 @@ flux/
 - Flux: reconciliation
 - Kubernetes: container orchestration
 
+# Prerequisites (Software)
+- Docker
+- k3d
+- kubectl
+- Flux CLI
+- make
+
 # Help
 ```shell
 make create: Create cluster + bootstrap Flux
@@ -37,11 +44,12 @@ make destroy: Delete cluster
 ```
 
 # Cluster Bootstrap
+Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application. The link where it can be accessed will be provided in the output (e.g., http://hello.localhost).
+
+### make
 ```shell
 make create
 ```
-
-Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application. The link where it can be accessed will be provided in the output (e.g., http://hello.localhost).
 
 # Log verification
 ```shell
