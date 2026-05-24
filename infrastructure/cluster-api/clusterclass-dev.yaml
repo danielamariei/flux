@@ -1,8 +1,7 @@
 apiVersion: addons.cluster.x-k8s.io/v1alpha1
 kind: ClusterResourceSet
 metadata:
-  name: flux-install
-  namespace: default
+  name: flux-bootstrap
 spec:
   clusterSelector:
     matchLabels:
