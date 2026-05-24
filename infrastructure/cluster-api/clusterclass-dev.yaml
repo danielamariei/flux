@@ -1,0 +1,12 @@
+apiVersion: addons.cluster.x-k8s.io/v1alpha1
+kind: ClusterResourceSet
+metadata:
+  name: flux-install
+  namespace: default
+spec:
+  clusterSelector:
+    matchLabels:
+      env: dev
+  resources:
+    - kind: Secret
+      name: flux-install
