@@ -4,16 +4,16 @@
 The repository is structured as follows:
 ```
 flux/
-├── bootstrap/
-├── clusters/
-├── infrastructure/
-├── platform/
-├── apps/
-└── README.md
+├── Makefile
+├── README.md
+├── apps
+├── bootstrap
+├── clusters
+├── infrastructure
+└── platform
 ```
 
 # Technologies
-
 
 
 # Cluster Bootstrap
@@ -23,3 +23,5 @@ flux/
 # Components Deployment
 
 # Log verification
+
+# Future
