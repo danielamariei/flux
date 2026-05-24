@@ -1,0 +1,90 @@
+################################################
+# IntelliJ IDEA / JetBrains
+################################################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+build/
+cmake-build-*/
+*.log
+
+# Local JetBrains run configs
+.run/
+
+################################################
+# OS files
+################################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+################################################
+# Kubernetes
+################################################
+
+# Local kube config overrides
+.kube/
+*.kubeconfig
+
+# kubectl / k9s / tooling caches
+.kube-cache/
+.k9s/
+.kubectx/
+.kubens/
+
+# Helm local cache/state
+.helm/
+*.lock
+
+# Kubernetes temp outputs
+*.yaml.bak
+*.yml.bak
+
+################################################
+# Flux (GitOps)
+################################################
+
+# Flux local tooling / artifacts (if used)
+.flux/
+flux-system-temp/
+gotk-components.yaml.bak
+
+# Avoid accidental local generated manifests
+*.generated.yaml
+
+################################################
+# Bash / Shell
+################################################
+
+# Shell history and temp scripts
+*.sh~
+*.bash_history
+*.zsh_history
+
+# Local env files (often sensitive)
+.env
+.env.*
+!.env.example
+
+################################################
+# Logs
+################################################
+*.log
+logs/
+
+################################################
+# Terraform / infra adjacent (often used with K8s)
+################################################
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+################################################
+# Misc
+################################################
+tmp/
+temp/
