@@ -15,6 +15,11 @@ spec:
       containers:
         - name: vector
           image: timberio/vector:0.34.0-alpine
+          env:
+           - name: VECTOR_SELF_NODE_NAME
+             valueFrom:
+               fieldRef:
+                 fieldPath: spec.nodeName
           args: ["-c", "/etc/vector/vector.yaml"]
           volumeMounts:
             - name: config
