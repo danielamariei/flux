@@ -17,6 +17,6 @@ spec:
         - name: hello-world
           image: hashicorp/http-echo:1.0
           args:
-            - "-text=hello from flux"
+            - "-text=hello from flux v2"
           ports:
             - containerPort: 5678
