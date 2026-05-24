@@ -14,7 +14,9 @@ flux/
 ```
 
 # Technologies
-
+- k3d
+- Flux
+- Kustomize
 
 # Cluster Bootstrap
 

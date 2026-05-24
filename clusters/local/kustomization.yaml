@@ -3,5 +3,5 @@ kind: Kustomization
 
 resources:
   - ../../infrastructure/namespaces
-  - ../../platform
+  - ../../platform/
   - ../../apps
