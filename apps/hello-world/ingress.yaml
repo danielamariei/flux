@@ -5,7 +5,7 @@ metadata:
   namespace: demo
 spec:
   rules:
-    - host: hello.localtest.me
+    - host: hello.localhost
       http:
         paths:
           - path: /
