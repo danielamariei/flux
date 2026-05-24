@@ -20,5 +20,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: gitops-poc
+    name: flux
   wait: true
