@@ -29,7 +29,7 @@ flux/
 - Docker
 - k3d
 - kubectl
-- Flux CLI
+- Flux CLI (fluxcd/tap/flux)
 - make
 
 # Cluster Bootstrap
