@@ -33,7 +33,7 @@ flux/
 - make
 
 # Cluster Bootstrap
-Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application. The link where it can be accessed will be provided in the output (e.g., http://hello.localhost).
+Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application.
 
 ```shell
 Step 1: clone project locally
@@ -41,6 +41,7 @@ Step 2: cd flux
 Step 3: make create
 ```
 
+The link where the hello world app can be accessed will be provided in the output (e.g., http://hello.localhost).
 # Help
 ```shell
 make create: Create cluster + bootstrap Flux
