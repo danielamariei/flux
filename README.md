@@ -32,6 +32,15 @@ flux/
 - Flux CLI
 - make
 
+# Cluster Bootstrap
+Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application. The link where it can be accessed will be provided in the output (e.g., http://hello.localhost).
+
+```shell
+Step 1: clone project locally
+Step 2: cd flux
+Step 3: make create
+```
+
 # Help
 ```shell
 make create: Create cluster + bootstrap Flux
@@ -41,14 +50,6 @@ make reconcile: Force Flux reconciliation
 make hello: Show hello-world app URL
 make vector-logs: Show Vector logs
 make destroy: Delete cluster
-```
-
-# Cluster Bootstrap
-Bootstraps the Kubernetes Cluster, Flux, and starts a hello world application. The link where it can be accessed will be provided in the output (e.g., http://hello.localhost).
-
-### make
-```shell
-make create
 ```
 
 # Log verification
